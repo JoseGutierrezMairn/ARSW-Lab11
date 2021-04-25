@@ -70,4 +70,4 @@ newman run Pos.postman_collection.json -n 10
 	   en GB por el tiempo en milisegundos que dura la ejecución de la función. Y la memoria que una función utiliza se mide redondeando a los 128 MB más cercanos hasta un tamaño de
 	   memoria máximo de 1.536 MB, y el tiempo de ejecución se redondea a los 1 ms más cercanos y para la ejecución de una única función, el tiempo de ejecución mínimo es de 100 ms
 	   y la memoria mínima es de 128 MB, respectivamente.
-* Informe
+
