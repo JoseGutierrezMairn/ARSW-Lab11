@@ -39,9 +39,9 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 # Informe
 Se creó un environment donde se guardó la dirección de Azure, y por otro lado Se modificó la colección de postman para poder enviar peticiones concurrentemente.
 Este fue el resultado de las 10 peticiones:
-![Imagenes](https://github.com/JoseGutierrezMairn/ARSW-Lab11/blob/master/images/punto5.jpg?raw=true)  
+![Imagenes](https://github.com/JoseGutierrezMairn/ARSW-Lab11/blob/master/images/punto5.JPG?raw=true)  
 Además cuando se revisó el monitoreo en la plataforma de azure se pudo ver el siguiente resultado:  
-![Imagenes](https://github.com/JoseGutierrezMairn/ARSW-Lab11/blob/master/images/monitoring5.jpg?raw=true)  
+![Imagenes](https://github.com/JoseGutierrezMairn/ARSW-Lab11/blob/master/images/monitoring5.JPG?raw=true)  
 Que como se ve en la imagen, las pruebas tuvieron un resultado exitoso. 
 tener en cuenta que para ejecutar la coleccion de postman se usa el comando
 ~~~
@@ -61,7 +61,7 @@ newman run Pos.postman_collection.json -n 10
     * Debido a que Azure Functions se basa en Azure Storage para operaciones de almacenamiento y administración como son Manejo de triggers y logs. Azure Storage account nos proporciona un espacio de nombres unico para el almacenamiento.
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.  
     * Existen 3 tipos de planes: Consumption, Premium y App Service. Sus características, ventajas y desventajas de pueden ver en la siguiente imagen:  
-	![Imagenes](https://github.com/JoseGutierrezMairn/ARSW-Lab11/blob/master/images/planes.jpg?raw=true)  
+	![Imagenes](https://github.com/JoseGutierrezMairn/ARSW-Lab11/blob/master/images/planes.JPG?raw=true)  
 * ¿Por qué la memoization falla o no funciona de forma correcta?  
     * Después de los 5 minutos, functionTimeout llega al límite de espera y la siguiente petición que se haga es como si fuera la primera, es decir, la estructura de memorización usada anteriormente queda vacía.
 * ¿Cómo funciona el sistema de facturación de las Function App?  
